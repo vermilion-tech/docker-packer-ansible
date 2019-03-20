@@ -14,3 +14,5 @@ RUN apk add --no-cache --update \
 
 # install ansible
 RUN pip install ansible==2.7.9
+
+ENTRYPOINT [ "/bin/sh" ]
